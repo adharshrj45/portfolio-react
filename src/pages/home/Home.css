@@ -1,0 +1,20 @@
+h1{
+    font-size: 3rem;
+    
+}
+p{
+    font-size: 1.5rem;
+    color: gray;
+}
+.icons{
+    display: flex;
+    gap: 2rem;
+    padding: 0.5rem;
+  
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer; 
+    padding: 5px;
+}
