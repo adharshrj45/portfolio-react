@@ -5,6 +5,7 @@ import Header from '../components/header/Header'
 import Projects from '../pages/projects/Projects'
 import Contact from '../pages/contact/Contact'
 import Footer from '../components/footer/Footer'
+import About from '../pages/About'
 
 const RouterLayout = () => {
   return (
@@ -14,6 +15,7 @@ const RouterLayout = () => {
     <Routes>
     <Route path="/" element={<Home/>}></Route>
     <Route path="/portfolio-react" element={<Home/>}></Route>
+    <Route path="/About" element={<About/>}></Route>
     <Route path="/Projects" element={<Projects/>}></Route>
     <Route path="/Contact" element={<Contact/>}></Route>
     </Routes>
